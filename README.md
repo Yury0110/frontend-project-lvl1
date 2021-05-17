@@ -5,4 +5,5 @@ Maintainability: <a href="https://codeclimate.com/github/Yury0110/frontend-proje
 
 ![Actions Status](https://github.com/Yury0110/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)
 
-[Demonstration of game]https://asciinema.org/a/xV3exTQfQqVaPzbofIk0qhkXB
+[Demonstration of "game of the parity"]https://asciinema.org/a/xV3exTQfQqVaPzbofIk0qhkXB
+[Demonstration of "game calculator"]https://asciinema.org/a/IstN2K7Kw5E9KLfoxgh74vVpx
