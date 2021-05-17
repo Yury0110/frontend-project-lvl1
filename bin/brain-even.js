@@ -2,12 +2,13 @@
 
 import getRandomNumber from './src/randomNumber.js';
 import {
-  rightAnswer, yesIsWrongAnswer, noIsWrongAnswer, incorrectAnswer, congrat, askName,
+  rightAnswer, yesIsWrongAnswer, noIsWrongAnswer, incorrectAnswer, congrat, askName, greeting,
 } from './src/cli.js';
 import askForAnswer from './src/answer.js';
 
 console.log('Welcome to the Brain Games!');
 askName();
+greeting();
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 const runNewRound = () => {
