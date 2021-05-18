@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { askName, greeting, congrat, letsTryAgain } from './src/cli.js';
+import { askName, greeting, congrat, letsTryAgain, rightAnswer } from './src/cli.js';
 import randomExpression from './src/randomOperator.js';
 import askForAnswer from './src/answer.js';
 
@@ -16,9 +16,9 @@ const runNewRound = () => {
   const answer = askForAnswer();
 
   if (answer === solutionOfExpression) {
-    console.log('Correct!');
+    console.log(rightAnswer());
     return true;
-  } 
+  }
   if (answer !== solutionOfExpression) {
     console.log(`${answer} is wrong answer ;(. Correct answer was ${solutionOfExpression}. \n${letsTryAgain()}`);
     return false;
