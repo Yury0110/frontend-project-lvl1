@@ -18,14 +18,4 @@ const arithProgr = () => {
   return array;
 };
 
-// const arr = arithProgr();
-
-
-
-// const getMissElement = () => {
-//   arr[randomElement] = '..';
-//   return arr;
-// };
-// console.log(getMissElement());
-
 export default arithProgr;
