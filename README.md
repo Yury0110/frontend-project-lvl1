@@ -8,3 +8,4 @@ Maintainability: <a href="https://codeclimate.com/github/Yury0110/frontend-proje
 [Demonstration of "game of the parity"]https://asciinema.org/a/xV3exTQfQqVaPzbofIk0qhkXB
 [Demonstration of "game calculator"]https://asciinema.org/a/IstN2K7Kw5E9KLfoxgh74vVpx
 [Demonstration of "game GCD"]https://asciinema.org/a/SBHZXFCZfTH9OmztXIUoJMkuZ
+[Demonstration of "game of progression"]https://asciinema.org/a/fKWjLm1Gthi7i80XBNhLb0xj0
