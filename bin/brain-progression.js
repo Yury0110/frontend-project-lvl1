@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import getMissElement from './src/rNprogression.js';
 import {
   rightAnswer, askName, greeting, letsTryAgain, congrat,
 } from './src/cli.js';
