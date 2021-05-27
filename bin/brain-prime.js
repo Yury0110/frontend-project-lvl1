@@ -29,5 +29,6 @@ const gameOfPrime = () => {
     }
   }
 };
-congrat();
+
 gameOfPrime();
+console.log(congrat());
