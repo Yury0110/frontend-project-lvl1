@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-import { askName, greeting, congrat, letsTryAgain, rightAnswer } from './src/cli.js';
+import {
+  askName, greeting, congrat, letsTryAgain, rightAnswer,
+} from './src/cli.js';
 import randomExpression from './src/randomOperator.js';
 import askForAnswer from './src/answer.js';
 
@@ -9,9 +11,11 @@ askName();
 greeting();
 console.log('What is the result of the expression?');
 
+// eslint-disable-next-line consistent-return
 const runNewRound = () => {
   const question = randomExpression();
   console.log(question);
+  // eslint-disable-next-line no-eval
   const solutionOfExpression = String(eval(question));
   const answer = askForAnswer();
 
