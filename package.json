@@ -1,8 +1,8 @@
 {
-    "name": "@hexlet/code",
+    "name": "hexlet_frontend_project_1",
     "version": "1.0.0",
     "type": "module",
-    "description": "[![Actions Status](https://github.com/Yury0110/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Yury0110/frontend-project-lvl1/actions)",
+    "description": "first frontend project on hexlet",
     "main": "index.js",
     "bin": {
         "brain-games": "bin/brain-games.js",
@@ -27,13 +27,12 @@
     },
     "homepage": "https://github.com/Yury0110/frontend-project-lvl1#readme",
     "dependencies": {
-        "eslint": "^7.25.0",
-        "eslint-config-airbnb-base": "^14.2.1",
-        "eslint-plugin-import": "^2.22.1",
         "jest": "^26.6.3",
         "readline-sync": "^1.4.10"
     },
     "devDependencies": {
-        "eslint-plugin-jest": "^24.3.6"
+        "eslint": "^7.25.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1"
     }
 }
