@@ -20,14 +20,13 @@
         "type": "git",
         "url": "git+https://github.com/Yury0110/frontend-project-lvl1.git"
     },
-    "author": "",
+    "author": "Grigorev Yury",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/Yury0110/frontend-project-lvl1/issues"
     },
     "homepage": "https://github.com/Yury0110/frontend-project-lvl1#readme",
     "dependencies": {
-        "jest": "^26.6.3",
         "readline-sync": "^1.4.10"
     },
     "devDependencies": {
