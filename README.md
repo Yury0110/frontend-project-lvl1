@@ -8,7 +8,7 @@ Linter: [![Actions Status](https://github.com/Yury0110/frontend-project-lvl1/act
 
 ***
 
-Для установки игр, введите команду npm install
+Для установки игр, введите команду make install
 
 ***
 
