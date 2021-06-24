@@ -24,8 +24,8 @@ const compareAnswer = () => {
   return [question, rightAnswer];
 };
 
-const brainPrimeGame = () => {
+const startGame = () => {
   processOfGame(compareAnswer, rules);
 };
 
-export default brainPrimeGame;
+export default startGame;

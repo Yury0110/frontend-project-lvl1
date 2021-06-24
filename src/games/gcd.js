@@ -20,8 +20,8 @@ const compareAnswer = () => {
   return [question, rightAnswer];
 };
 
-const brainGcdGame = () => {
+const startGame = () => {
   processOfGame(compareAnswer, rules);
 };
 
-export default brainGcdGame;
+export default startGame;

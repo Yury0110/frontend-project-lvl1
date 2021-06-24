@@ -47,8 +47,8 @@ const compareAnswer = () => {
   return [question, rightAnswer];
 };
 
-const brainProgressionGame = () => {
+const startGame = () => {
   processOfGame(compareAnswer, rules);
 };
 
-export default brainProgressionGame;
+export default startGame;
