@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 
+// eslint-disable-next-line consistent-return
 const processOfGame = (generateNewRound, rule) => {
   console.log('Welcome to the Brain Games!');
 
