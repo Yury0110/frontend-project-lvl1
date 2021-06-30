@@ -1,6 +1,6 @@
 import processOfGame from '../index.js';
 
-const rules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
 const randomNumber10 = () => Math.floor(Math.random() * 10) + 1;
 
@@ -48,7 +48,7 @@ const compareAnswer = () => {
 };
 
 const startGame = () => {
-  processOfGame(compareAnswer, rules);
+  processOfGame(compareAnswer, rule);
 };
 
 export default startGame;

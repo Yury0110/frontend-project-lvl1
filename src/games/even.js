@@ -1,7 +1,7 @@
 import processOfGame from '../index.js';
-import randomNumber from '../randomNumber.js';
+import generateRandomNumber from '../utils.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isNumberEven = (num) => {
   if (num % 2 === 0) {
     return 'yes';
@@ -9,13 +9,13 @@ const isNumberEven = (num) => {
 };
 
 const compareAnswer = () => {
-  const question = randomNumber();
+  const question = generateRandomNumber();
   const rightAnswer = isNumberEven(question);
   return [question, rightAnswer];
 };
 
 const startGame = () => {
-  processOfGame(compareAnswer, rules);
+  processOfGame(compareAnswer, rule);
 };
 
 export default startGame;

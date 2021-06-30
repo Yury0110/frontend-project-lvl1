@@ -1,6 +1,6 @@
 import processOfGame from '../index.js';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const getRandomPrime = (randNum) => {
   let answer = 'yes';
@@ -25,7 +25,7 @@ const compareAnswer = () => {
 };
 
 const startGame = () => {
-  processOfGame(compareAnswer, rules);
+  processOfGame(compareAnswer, rule);
 };
 
 export default startGame;
