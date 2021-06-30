@@ -8,7 +8,6 @@ publish:
 	npm publish --dry-run --access public
 
 lint:
-	
 	npx eslint .
 
 brain-even:	
